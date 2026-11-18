@@ -23,7 +23,7 @@ python -m pip install -r requirements-analysis.txt
 
 ## Data and checkpoint
 
-The [v1.0.0 release](https://github.com/zhouzhongyoung/scHiFi/releases/tag/v1.0.0) contains:
+The [v1.0.1 release](https://github.com/zhouzhongyoung/scHiFi/releases/tag/v1.0.1) contains:
 
 * `scHiFi_datasets_13.tar.gz`: all 13 benchmark expression matrices and annotations;
 * `scHiFi_Klein_checkpoint_1111.tar.gz`: the saved Klein model, configuration,

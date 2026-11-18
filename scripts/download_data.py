@@ -6,7 +6,7 @@ import tarfile
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = 'https://github.com/zhouzhongyoung/scHiFi/releases/download/v1.0.0/'
+BASE = 'https://github.com/zhouzhongyoung/scHiFi/releases/download/v1.0.1/'
 ASSETS = ['scHiFi_datasets_13.tar.gz', 'scHiFi_Klein_checkpoint_1111.tar.gz']
 
 
