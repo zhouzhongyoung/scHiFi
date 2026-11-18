@@ -6,7 +6,7 @@ import tarfile
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = 'https://github.com/zhouzhongyoung/scHiFi/releases/download/v1.0.1/'
+BASE = 'https://github.com/zhouzhongyoung/scHiFi/releases/download/v1.0.2/'
 ASSETS = ['scHiFi_datasets_13.tar.gz', 'scHiFi_Klein_checkpoint_1111.tar.gz']
 
 
@@ -32,8 +32,23 @@ def main():
     for name in selected:
         archive = ROOT / name
         if not archive.exists():
-            print('Downloading ' + name, flush=True)
-            urllib.request.urlretrieve(BASE + name, archive)
+            parts = sorted(k for k in hashes if k.startswith(name + '.part'))
+            if parts:
+                for part in parts:
+                    local = ROOT / part
+                    if not local.exists() or digest(local) != hashes[part]:
+                        print('Downloading ' + part, flush=True)
+                        urllib.request.urlretrieve(BASE + part, local)
+                    if digest(local) != hashes[part]:
+                        raise ValueError('Checksum mismatch: ' + part)
+                with archive.open('wb') as output:
+                    for part in parts:
+                        with (ROOT / part).open('rb') as input_file:
+                            for block in iter(lambda: input_file.read(8*1024*1024), b''):
+                                output.write(block)
+            else:
+                print('Downloading ' + name, flush=True)
+                urllib.request.urlretrieve(BASE + name, archive)
         if digest(archive) != hashes[name]:
             raise ValueError('Checksum mismatch: ' + name)
         with tarfile.open(archive, 'r:gz') as handle:
@@ -44,6 +59,8 @@ def main():
             handle.extractall(ROOT)
         if not args.keep_archives:
             archive.unlink()
+            for part in sorted(k for k in hashes if k.startswith(name + '.part')):
+                (ROOT / part).unlink(missing_ok=True)
         print('Extracted ' + name, flush=True)
 
 

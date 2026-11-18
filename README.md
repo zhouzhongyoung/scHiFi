@@ -23,14 +23,16 @@ python -m pip install -r requirements-analysis.txt
 
 ## Data and checkpoint
 
-The [v1.0.1 release](https://github.com/zhouzhongyoung/scHiFi/releases/tag/v1.0.1) contains:
+The [v1.0.2 release](https://github.com/zhouzhongyoung/scHiFi/releases/tag/v1.0.2) contains:
 
-* `scHiFi_datasets_13.tar.gz`: all 13 benchmark expression matrices and annotations;
+* `scHiFi_datasets_13.tar.gz.part01` through `.part13`: all 13 benchmark
+  expression matrices and annotations, stored as checksum-verified archive parts;
 * `scHiFi_Klein_checkpoint_1111.tar.gz`: the saved Klein model, configuration,
   predictions, embedding and training history;
 * `SHA256SUMS.txt`: checksums for the release attachments.
 
-Download and extract the attachments into this directory:
+Download the attachments, assemble the dataset archive and extract it into
+this directory. The script performs these steps automatically:
 
 ```bash
 python scripts/download_data.py

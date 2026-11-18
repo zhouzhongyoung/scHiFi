@@ -7,6 +7,7 @@ results/
 AE_weights/
 graph_cache/
 *.tar.gz
+*.tar.gz.part*
 analysis/qx/figures/
 analysis/qx/layout/
 analysis/performance/figures/
