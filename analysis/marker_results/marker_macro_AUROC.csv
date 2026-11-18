@@ -1,0 +1,9 @@
+dataset,method,marker_panel_AUROC,mapped_types,total_reference_types,valid_AUROC_types,n_prediction_runs,all_reference_types_evaluated
+Adam,scHiFi,0.810748690929,8,8,8,1,True
+Adam,scSAMAC,0.8020194834,8,8,8,1,True
+Adam,GCLSC,0.622049155981,8,8,8,1,True
+Adam,scAGCL,0.682480143102,8,8,8,1,True
+Plasschaert,scHiFi,0.800564391889,8,8,8,1,True
+Plasschaert,scSAMAC,0.728482200734,8,8,8,1,True
+Plasschaert,GCLSC,0.700563198202,8,8,8,1,True
+Plasschaert,scAGCL,0.682802764219,8,8,8,1,True

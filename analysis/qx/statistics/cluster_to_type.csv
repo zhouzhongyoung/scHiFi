@@ -1,0 +1,7 @@
+predicted_cluster,reference_label,reference_type,cluster_cells,reference_cells,matched_cells,cluster_fraction,reference_recall
+0,2,endothelial cell,1328,1330,1326,0.9984939759036144,0.9969924812030075
+1,4,mesenchymal stem cell,1143,1136,1136,0.9938757655293088,1.0
+2,5,skeletal muscle satellite cell,353,354,352,0.9971671388101983,0.9943502824858758
+3,1,T cell,319,320,319,1.0,0.996875
+4,0,B cell,463,461,461,0.9956803455723542,1.0
+5,3,macrophage,303,308,303,1.0,0.9837662337662337

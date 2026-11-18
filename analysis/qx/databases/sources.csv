@@ -1,0 +1,7 @@
+file,url,sha256
+go-basic.obo,https://current.geneontology.org/ontology/go-basic.obo,b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc
+MOUSE-mod.gaf.gz,https://current.geneontology.org/annotations/gaf/MOUSE-mod.gaf.gz,6cbefce3a2efd9862f102a2732e923fde525c8fa59a3e5ce22e8178c3ebb0093
+kegg_mmu_genes.tsv,https://rest.kegg.jp/list/mmu,5faab57edd581f4585a5c06e31f64bebbff52391e9c5cf080f4dfabb3af07ee3
+kegg_mmu_pathways.tsv,https://rest.kegg.jp/list/pathway/mmu,41e385f1658be658f4f9205f816e03a105380dc7303356dfe39b754b9c2bec54
+kegg_mmu_gene_pathway.tsv,https://rest.kegg.jp/link/pathway/mmu,4bcfb2c75cf5bfc29be3c44be423158314b11393784b586834acf8aac307d2d3
+kegg_pathway_info.txt,https://rest.kegg.jp/info/pathway,0dc70fb7ea4b8c537951e2bc3c0d11685319f587a3487e9fc78221dab8046bfd

@@ -1,0 +1,7 @@
+predicted_cluster,reference_type,significant_up,significant_down,tested_genes
+0,endothelial cell,2284,7269,16512
+1,mesenchymal stem cell,6901,2554,16512
+2,skeletal muscle satellite cell,2529,3093,16512
+3,T cell,1973,4062,16512
+4,B cell,1677,5648,16512
+5,macrophage,3638,1784,16512

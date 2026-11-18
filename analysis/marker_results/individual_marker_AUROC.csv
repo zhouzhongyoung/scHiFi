@@ -1,0 +1,129 @@
+dataset,method,reference_type,gene,marker_AUROC
+Adam,scHiFi,CM,Six2,0.558993108066
+Adam,scHiFi,CM,Cited1,0.689120207988
+Adam,scHiFi,Distal tubule,Slc12a3,0.741386879517
+Adam,scHiFi,Distal tubule,Pvalb,0.675910750695
+Adam,scHiFi,ED,Pecam1,0.807082779085
+Adam,scHiFi,ED,Cdh5,0.821056993758
+Adam,scHiFi,LH,Slc12a1,0.981133598661
+Adam,scHiFi,LH,Umod,0.839853440397
+Adam,scHiFi,PT,Slc34a1,0.772760837436
+Adam,scHiFi,PT,Lrp2,0.843156227246
+Adam,scHiFi,Podocytes,Nphs1,0.894179248699
+Adam,scHiFi,Podocytes,Nphs2,0.907287025257
+Adam,scHiFi,Stromal,Col1a1,0.73423743654
+Adam,scHiFi,Stromal,Pdgfra,0.592717771994
+Adam,scHiFi,Ureteric bud,Ret,0.549182385684
+Adam,scHiFi,Ureteric bud,Wnt11,0.530963338006
+Adam,scSAMAC,CM,Six2,0.551273945393
+Adam,scSAMAC,CM,Cited1,0.663230860226
+Adam,scSAMAC,Distal tubule,Slc12a3,0.72345712303
+Adam,scSAMAC,Distal tubule,Pvalb,0.664965995836
+Adam,scSAMAC,ED,Pecam1,0.805232784201
+Adam,scSAMAC,ED,Cdh5,0.82272485419
+Adam,scSAMAC,LH,Slc12a1,0.966312096485
+Adam,scSAMAC,LH,Umod,0.828697531243
+Adam,scSAMAC,PT,Slc34a1,0.813050519105
+Adam,scSAMAC,PT,Lrp2,0.877118390024
+Adam,scSAMAC,Podocytes,Nphs1,0.854265471586
+Adam,scSAMAC,Podocytes,Nphs2,0.850324326027
+Adam,scSAMAC,Stromal,Col1a1,0.735950144946
+Adam,scSAMAC,Stromal,Pdgfra,0.592456075519
+Adam,scSAMAC,Ureteric bud,Ret,0.547223911354
+Adam,scSAMAC,Ureteric bud,Wnt11,0.530587807422
+Adam,GCLSC,CM,Six2,0.5586913255
+Adam,GCLSC,CM,Cited1,0.700345713228
+Adam,GCLSC,Distal tubule,Slc12a3,0.487116094558
+Adam,GCLSC,Distal tubule,Pvalb,0.481121487411
+Adam,GCLSC,ED,Pecam1,0.476360676361
+Adam,GCLSC,ED,Cdh5,0.46810966811
+Adam,GCLSC,LH,Slc12a1,0.809330893511
+Adam,GCLSC,LH,Umod,0.71326084554
+Adam,GCLSC,PT,Slc34a1,0.689203745795
+Adam,GCLSC,PT,Lrp2,0.759109373579
+Adam,GCLSC,Podocytes,Nphs1,0.552465343529
+Adam,GCLSC,Podocytes,Nphs2,0.525484612382
+Adam,GCLSC,Stromal,Col1a1,0.614788966049
+Adam,GCLSC,Stromal,Pdgfra,0.548943094136
+Adam,GCLSC,Ureteric bud,Ret,0.495885333181
+Adam,GCLSC,Ureteric bud,Wnt11,0.487606558486
+Adam,scAGCL,CM,Six2,0.560107790299
+Adam,scAGCL,CM,Cited1,0.703052731504
+Adam,scAGCL,Distal tubule,Slc12a3,0.468786808009
+Adam,scAGCL,Distal tubule,Pvalb,0.459586478745
+Adam,scAGCL,ED,Pecam1,0.683934133761
+Adam,scAGCL,ED,Cdh5,0.690237845947
+Adam,scAGCL,LH,Slc12a1,0.818880848449
+Adam,scAGCL,LH,Umod,0.720374501219
+Adam,scAGCL,PT,Slc34a1,0.884514862864
+Adam,scAGCL,PT,Lrp2,0.931488882801
+Adam,scAGCL,Podocytes,Nphs1,0.489633484163
+Adam,scAGCL,Podocytes,Nphs2,0.476682692308
+Adam,scAGCL,Stromal,Col1a1,0.744038325805
+Adam,scAGCL,Stromal,Pdgfra,0.59635728402
+Adam,scAGCL,Ureteric bud,Ret,0.493348472956
+Adam,scAGCL,Ureteric bud,Wnt11,0.486341317198
+Plasschaert,scHiFi,Basal,Krt5,0.933774937803
+Plasschaert,scHiFi,Basal,Trp63,0.839057074254
+Plasschaert,scHiFi,Brush,Pou2f3,0.689066791962
+Plasschaert,scHiFi,Brush,Trpm5,0.9243662956
+Plasschaert,scHiFi,Ciliated,Foxj1,0.983660351222
+Plasschaert,scHiFi,Ciliated,Pifo,0.890117644653
+Plasschaert,scHiFi,Cycling Basal (homeostasis),Mki67,0.569108063418
+Plasschaert,scHiFi,Cycling Basal (homeostasis),Top2a,0.584950690476
+Plasschaert,scHiFi,Ionocytes,Foxi1,0.507657781988
+Plasschaert,scHiFi,Ionocytes,Cftr,0.504395814645
+Plasschaert,scHiFi,Krt4/13+,Krt4,0.639825974498
+Plasschaert,scHiFi,Krt4/13+,Krt13,0.525108804498
+Plasschaert,scHiFi,PNEC,Ascl1,0.823627408373
+Plasschaert,scHiFi,PNEC,Calca,0.742166547251
+Plasschaert,scHiFi,Secretory,Scgb1a1,0.940194554856
+Plasschaert,scHiFi,Secretory,Muc5b,0.927285105807
+Plasschaert,scSAMAC,Basal,Krt5,0.848387864981
+Plasschaert,scSAMAC,Basal,Trp63,0.751951638922
+Plasschaert,scSAMAC,Brush,Pou2f3,0.573396767132
+Plasschaert,scSAMAC,Brush,Trpm5,0.647106756316
+Plasschaert,scSAMAC,Ciliated,Foxj1,0.984527131454
+Plasschaert,scSAMAC,Ciliated,Pifo,0.893056079738
+Plasschaert,scSAMAC,Cycling Basal (homeostasis),Mki67,0.527579197589
+Plasschaert,scSAMAC,Cycling Basal (homeostasis),Top2a,0.529368617589
+Plasschaert,scSAMAC,Ionocytes,Foxi1,0.49826952715
+Plasschaert,scSAMAC,Ionocytes,Cftr,0.499185120568
+Plasschaert,scSAMAC,Krt4/13+,Krt4,0.878060175438
+Plasschaert,scSAMAC,Krt4/13+,Krt13,0.60816564517
+Plasschaert,scSAMAC,PNEC,Ascl1,0.496129656507
+Plasschaert,scSAMAC,PNEC,Calca,0.497031134029
+Plasschaert,scSAMAC,Secretory,Scgb1a1,0.864645013009
+Plasschaert,scSAMAC,Secretory,Muc5b,0.902407233585
+Plasschaert,GCLSC,Basal,Krt5,0.872103472721
+Plasschaert,GCLSC,Basal,Trp63,0.805779998755
+Plasschaert,GCLSC,Brush,Pou2f3,0.497587078229
+Plasschaert,GCLSC,Brush,Trpm5,0.494385908478
+Plasschaert,GCLSC,Ciliated,Foxj1,0.966093593738
+Plasschaert,GCLSC,Ciliated,Pifo,0.855980903081
+Plasschaert,GCLSC,Cycling Basal (homeostasis),Mki67,0.634090963889
+Plasschaert,GCLSC,Cycling Basal (homeostasis),Top2a,0.607309339913
+Plasschaert,GCLSC,Ionocytes,Foxi1,0.498433756296
+Plasschaert,GCLSC,Ionocytes,Cftr,0.498727418308
+Plasschaert,GCLSC,Krt4/13+,Krt4,0.704448542298
+Plasschaert,GCLSC,Krt4/13+,Krt13,0.550686456125
+Plasschaert,GCLSC,PNEC,Ascl1,0.495257555356
+Plasschaert,GCLSC,PNEC,Calca,0.496241089296
+Plasschaert,GCLSC,Secretory,Scgb1a1,0.832055504577
+Plasschaert,GCLSC,Secretory,Muc5b,0.910612997313
+Plasschaert,scAGCL,Basal,Krt5,0.745019135786
+Plasschaert,scAGCL,Basal,Trp63,0.731362098924
+Plasschaert,scAGCL,Brush,Pou2f3,0.49572917992
+Plasschaert,scAGCL,Brush,Trpm5,0.493576596402
+Plasschaert,scAGCL,Ciliated,Foxj1,0.985299923872
+Plasschaert,scAGCL,Ciliated,Pifo,0.883845780103
+Plasschaert,scAGCL,Cycling Basal (homeostasis),Mki67,0.652053714356
+Plasschaert,scAGCL,Cycling Basal (homeostasis),Top2a,0.622482634353
+Plasschaert,scAGCL,Ionocytes,Foxi1,0.503119964749
+Plasschaert,scAGCL,Ionocytes,Cftr,0.503921507442
+Plasschaert,scAGCL,Krt4/13+,Krt4,0.67604774338
+Plasschaert,scAGCL,Krt4/13+,Krt13,0.519280621976
+Plasschaert,scAGCL,PNEC,Ascl1,0.494397131331
+Plasschaert,scAGCL,PNEC,Calca,0.497138328251
+Plasschaert,scAGCL,Secretory,Scgb1a1,0.771859362891
+Plasschaert,scAGCL,Secretory,Muc5b,0.883861367402

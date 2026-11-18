@@ -1,0 +1,96 @@
+{
+  "normalization": {
+    "target_sum": 10000,
+    "transform": "log1p",
+    "minimum_gene_detection_cells": 1
+  },
+  "DEG": {
+    "groupby": "predicted_cluster",
+    "test": "Wilcoxon rank-sum",
+    "tie_correct": true,
+    "contrast": "one vs rest",
+    "correction": "BH across 16512 genes separately per cluster",
+    "padj_max_exclusive": 0.05,
+    "effect_size_threshold": null,
+    "enrichment_input": "padj < 0.05 and estimated log2FC > 0"
+  },
+  "enrichment": {
+    "organism": "Mus musculus",
+    "test": "one-sided hypergeometric",
+    "universe": "detected genes intersected with the genes annotated in each library",
+    "min_set_size": 10,
+    "max_set_size": 500,
+    "BH_family": "all eligible terms separately for each cluster and ontology namespace / KEGG",
+    "padj_max_exclusive": 0.05,
+    "GO_propagation": [
+      "is_a",
+      "part_of"
+    ],
+    "exclude_NOT": true,
+    "symbol_matching": "exact"
+  },
+  "database_headers": {
+    "GO": [
+      "format-version: 1.2",
+      "data-version: releases/2026-07-26"
+    ],
+    "GAF": [
+      "!gaf-version: 2.2",
+      "!generated-by: UniProt",
+      "!date-generated: 2026-08-04 15:07",
+      "!go-version: http://purl.obolibrary.org/obo/go/releases/2026-08-02/extensions/go-plus.ofn"
+    ],
+    "KEGG": "pathway\tKEGG pathway maps\npath\t588 entries\n\tLast update 2026/11/16\n\tKanehisa Laboratories\n\nlinked db\tmodule\n\tko\n\t<org>\n\tgenome\n\tcompound\n\tglycan\n\treaction\n\trclass\n\trmodule\n\tenzyme\n\tnetwork\n\tntmap\n\tdisease\n\tdrug\n\tpubmed\n"
+  },
+  "libraries": {
+    "biological_process": {
+      "annotated_expressed_universe": 13357,
+      "tested_terms": 5621
+    },
+    "cellular_component": {
+      "annotated_expressed_universe": 13565,
+      "tested_terms": 735
+    },
+    "molecular_function": {
+      "annotated_expressed_universe": 13245,
+      "tested_terms": 1150
+    },
+    "KEGG": {
+      "annotated_expressed_universe": 6554,
+      "tested_terms": 352
+    }
+  },
+  "versions": {
+    "python": "3.12.11",
+    "scanpy": "1.10.4",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.3"
+  },
+  "grouping": "Original predicted-cluster membership; Hungarian matching assigns descriptive names only.",
+  "matching": {
+    "cells": 3909,
+    "matched_cells": 3897,
+    "retained_all_cells": true
+  },
+  "expression_heatmap": "Cell-level gene z scores across all 3,909 cells, grouped by predicted cluster; five highest-scoring significantly up-regulated genes per cluster. Genes are columns and cells are rows.",
+  "figure6_selection": "Panel a: eight highest-scoring significantly up-regulated genes per cluster. Panel b: representative significant GO term--cluster associations, including shared ribosome-related enrichment. Panel c: all significant cluster associations for the selected GO biological processes. Panel d: representative significant KEGG term--cluster associations ranked by adjusted p.",
+  "display": {
+    "heatmap_z_limits": [
+      -2,
+      2.5
+    ],
+    "volcano_log2FC_limits": [
+      -12,
+      12
+    ],
+    "volcano_adjusted_p_floor": 1e-300,
+    "UMAP_log_expression_limits": [
+      0,
+      4
+    ],
+    "enrichment_color_neg_log10_q_max": 25,
+    "enrichment_bar_length": "overlapping gene count, not truncated",
+    "enrichment_bubble_area": "proportional to overlapping gene count"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "Klein": {
+    "data_file": "data/Klein/data.h5",
+    "n_clusters": 4,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "Adam": {
+    "data_file": "data/Adam/data.h5",
+    "n_clusters": 8,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "mouse_bladder_cell": {
+    "data_file": "data/mouse_bladder_cell/data.h5",
+    "n_clusters": 16,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "Zeisel": {
+    "data_file": "data/Zeisel/data.h5",
+    "n_clusters": 9,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "10X_PBMC": {
+    "data_file": "data/10X_PBMC/data.h5",
+    "n_clusters": 8,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "QX_Limb_Muscle": {
+    "data_file": "data/QX_Limb_Muscle/data.h5",
+    "n_clusters": 6,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "Tosches_turtle": {
+    "data_file": "data/Tosches_turtle/data.h5",
+    "n_clusters": 15,
+    "train_mode": "local",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "Plasschaert": {
+    "data_file": "data/Plasschaert/data.h5",
+    "n_clusters": 8,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "Chen": {
+    "data_file": "data/Chen/data.h5",
+    "n_clusters": 46,
+    "train_mode": "local",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "QX_Spleen": {
+    "data_file": "data/QX_Spleen/data.h5",
+    "n_clusters": 5,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "Romanov": {
+    "data_file": "data/Romanov/data.h5",
+    "n_clusters": 7,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "Wang_Lung": {
+    "data_file": "data/Wang_Lung/data.h5",
+    "n_clusters": 2,
+    "train_mode": "full",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  },
+  "Bach": {
+    "data_file": "data/Bach/data.h5",
+    "n_clusters": 8,
+    "train_mode": "local",
+    "n_hvg": 2000,
+    "k_list": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "encoder_dims": [
+      512,
+      256,
+      128
+    ],
+    "decoder_dims": [
+      128,
+      256
+    ],
+    "z_dim": 32,
+    "pretrain_epochs": 400,
+    "maxiter": 150,
+    "pretrain_lr": 0.001,
+    "lr_fit": 0.5,
+    "batch_size": 256,
+    "tol": 0.001,
+    "cluster_weight": 0.5,
+    "zinb_weight": 1.0,
+    "graph_weight": 0.1,
+    "align_weight": 0.1
+  }
+}

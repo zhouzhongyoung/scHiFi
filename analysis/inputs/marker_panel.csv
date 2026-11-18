@@ -1,0 +1,33 @@
+dataset,reference_type,gene,source_url,evidence_note
+Adam,CM,Six2,https://doi.org/10.1038/s41467-024-50171-w,"cap-mesenchyme/nephron-progenitor program; preserve original CM label, generic source ontology is mesenchymal stem cell"
+Adam,CM,Cited1,https://doi.org/10.1038/s41467-024-50171-w,"cap-mesenchyme/nephron-progenitor program; preserve original CM label, generic source ontology is mesenchymal stem cell"
+Adam,Distal tubule,Slc12a3,https://doi.org/10.1038/s41586-024-07069-w,distal-convoluted-tubule program; Pvalb does not cover every distal subtype
+Adam,Distal tubule,Pvalb,https://doi.org/10.1038/s41586-024-07069-w,distal-convoluted-tubule program; Pvalb does not cover every distal subtype
+Adam,ED,Pecam1,https://doi.org/10.1038/s41467-024-50171-w,endothelial program; ED is endothelial in supplied ontology
+Adam,ED,Cdh5,https://doi.org/10.1038/s41467-024-50171-w,endothelial program; ED is endothelial in supplied ontology
+Adam,LH,Slc12a1,https://doi.org/10.1038/s41586-024-07069-w,ascending loop-of-Henle program; not every loop subtype
+Adam,LH,Umod,https://doi.org/10.1038/s41586-024-07069-w,ascending loop-of-Henle program; not every loop subtype
+Adam,PT,Slc34a1,https://doi.org/10.1038/s41467-024-50171-w;https://doi.org/10.1038/s41586-024-07069-w,proximal-tubule transport/endocytosis program
+Adam,PT,Lrp2,https://doi.org/10.1038/s41467-024-50171-w;https://doi.org/10.1038/s41586-024-07069-w,proximal-tubule transport/endocytosis program
+Adam,Podocytes,Nphs1,https://doi.org/10.1038/s41586-024-07069-w,podocyte filtration-slit program
+Adam,Podocytes,Nphs2,https://doi.org/10.1038/s41586-024-07069-w,podocyte filtration-slit program
+Adam,Stromal,Col1a1,https://doi.org/10.1038/s41467-024-50171-w,"stromal program, not an exclusive stromal-subtype definition"
+Adam,Stromal,Pdgfra,https://doi.org/10.1038/s41467-024-50171-w,"stromal program, not an exclusive stromal-subtype definition"
+Adam,Ureteric bud,Ret,https://doi.org/10.1242/dev.151142,"ureteric-bud-tip-associated program; does not exhaust mature collecting duct, Wnt11 also occurs in medullary stroma"
+Adam,Ureteric bud,Wnt11,https://doi.org/10.1242/dev.151142,"ureteric-bud-tip-associated program; does not exhaust mature collecting duct, Wnt11 also occurs in medullary stroma"
+Plasschaert,Basal,Krt5,https://doi.org/10.1038/s41586-018-0394-6,airway basal lineage
+Plasschaert,Basal,Trp63,https://doi.org/10.1038/s41586-018-0394-6,airway basal lineage
+Plasschaert,Brush,Pou2f3,https://doi.org/10.1371/journal.pone.0189340,mouse tracheal chemosensory/brush lineage
+Plasschaert,Brush,Trpm5,https://doi.org/10.1371/journal.pone.0189340,mouse tracheal chemosensory/brush lineage
+Plasschaert,Ciliated,Foxj1,https://doi.org/10.1038/s41586-018-0394-6;https://publications.ersnet.org/content/erj/62/3/2202210/DC1/embed/inline-supplementary-material-1.pdf,conserved airway ciliation program; supporting supplement includes human airway data
+Plasschaert,Ciliated,Pifo,https://doi.org/10.1038/s41586-018-0394-6;https://publications.ersnet.org/content/erj/62/3/2202210/DC1/embed/inline-supplementary-material-1.pdf,conserved airway ciliation program; supporting supplement includes human airway data
+Plasschaert,Cycling Basal (homeostasis),Mki67,https://publications.ersnet.org/content/erj/62/3/2202210/DC1/embed/inline-supplementary-material-1.pdf,cell-cycle state markers; not sufficient alone to prove basal identity
+Plasschaert,Cycling Basal (homeostasis),Top2a,https://publications.ersnet.org/content/erj/62/3/2202210/DC1/embed/inline-supplementary-material-1.pdf,cell-cycle state markers; not sufficient alone to prove basal identity
+Plasschaert,Ionocytes,Foxi1,https://doi.org/10.1038/s41586-018-0394-6,pulmonary ionocyte program
+Plasschaert,Ionocytes,Cftr,https://doi.org/10.1038/s41586-018-0394-6,pulmonary ionocyte program
+Plasschaert,Krt4/13+,Krt4,https://doi.org/10.1038/s41586-018-0394-6;https://publications.ersnet.org/content/erj/62/3/2202210/DC1/embed/inline-supplementary-material-1.pdf,"transitional epithelial state signature, not a wholly independent lineage"
+Plasschaert,Krt4/13+,Krt13,https://doi.org/10.1038/s41586-018-0394-6;https://publications.ersnet.org/content/erj/62/3/2202210/DC1/embed/inline-supplementary-material-1.pdf,"transitional epithelial state signature, not a wholly independent lineage"
+Plasschaert,PNEC,Ascl1,https://doi.org/10.1038/s41586-018-0394-6,pulmonary neuroendocrine program
+Plasschaert,PNEC,Calca,https://doi.org/10.1038/s41586-018-0394-6,pulmonary neuroendocrine program
+Plasschaert,Secretory,Scgb1a1,https://doi.org/10.1038/s41586-018-0394-6,secretory/club-associated program; gene specificity varies with state
+Plasschaert,Secretory,Muc5b,https://doi.org/10.1038/s41586-018-0394-6,secretory/club-associated program; gene specificity varies with state

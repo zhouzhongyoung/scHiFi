@@ -1,0 +1,31 @@
+{
+  "methods": [
+    "scHiFi",
+    "scSAMAC",
+    "GCLSC",
+    "scSCCNIA",
+    "scAGCL",
+    "nsDCC",
+    "scDCCA",
+    "scAGCN",
+    "scGAC",
+    "scziDesk",
+    "scDeepCluster",
+    "scGNN"
+  ],
+  "datasets": [
+    "Klein",
+    "Adam",
+    "mouse bladder cell",
+    "Zeisel",
+    "10X PBMC",
+    "QX Limb Muscle",
+    "Tosches turtle",
+    "Plasschaert",
+    "Chen",
+    "QX Spleen",
+    "Romanov",
+    "Wang Lung",
+    "Bach"
+  ]
+}

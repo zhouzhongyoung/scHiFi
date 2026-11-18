@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this software when using scHiFi."
+type: software
+title: "scHiFi: progressive structure-attribute fusion for scRNA-seq cell clustering"
+version: 1.0.0
+date-released: 2026-11-18
+license: MIT
+url: "https://github.com/zhouzhongyoung/scHiFi"
+repository-code: "https://github.com/zhouzhongyoung/scHiFi"
+authors:
+  - family-names: Zhou
+    given-names: Zhongyang
+  - family-names: Zhao
+    given-names: Shangshang
+  - family-names: Huang
+    given-names: Zhen
+  - family-names: Wu
+    given-names: Haomin
+  - family-names: Wang
+    given-names: Wei
+  - family-names: Chen
+    given-names: Feiyu

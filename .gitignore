@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+data/
+checkpoints/
+results/
+AE_weights/
+graph_cache/
+*.tar.gz
+analysis/qx/figures/
+analysis/qx/layout/
+analysis/performance/figures/
+analysis/performance/layout/
+analysis/biological_outputs/

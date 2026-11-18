@@ -1,0 +1,17 @@
+dataset,reference_label,reference_type,n_cells,panel_AUROC
+Adam,0,CM,513,0.729722790541
+Adam,1,Distal tubule,396,0.736301820286
+Adam,2,ED,302,0.908935466949
+Adam,3,LH,516,0.988585061739
+Adam,4,PT,617,0.884574209427
+Adam,5,Podocytes,224,0.825655740687
+Adam,6,Stromal,463,0.78869127442
+Adam,7,Ureteric bud,629,0.551455049281
+Plasschaert,0,Basal,2991,0.943977189974
+Plasschaert,1,Brush,55,0.999292112106
+Plasschaert,2,Ciliated,664,0.991062380363
+Plasschaert,3,Cycling Basal (homeostasis),69,0.953239470305
+Plasschaert,4,Ionocytes,19,0.999330569885
+Plasschaert,5,Krt4/13+,40,0.97723259334
+Plasschaert,6,PNEC,47,0.999809646618
+Plasschaert,7,Secretory,3092,0.972197234196
